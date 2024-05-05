@@ -1,0 +1,43 @@
+.block_model {
+    box-sizing: content-box;
+    display: block;
+    border-top: 5px dashed black;
+    border-right: 5px solid gold;
+    border-left: 5px solid yellow;
+    border-bottom: 5px dashed black;
+    width: 200px;
+    height: 200px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    background-image:url(pics/3.png);
+    background-repeat: no-repeat;
+}
+
+.block_model1 {
+    box-sizing: padding-box;
+    display: block;
+    border: 5px solid green;
+    width: 200px;
+    height: 200px;
+    min-height: 20px;
+    margin-top: 60px;
+    background-image:url(pics/3.png);
+    background-repeat: no-repeat;
+}
+
+.Cat {
+    width: 50%;
+    height: 280px;
+    display: inline-block;
+}
+
+.text {
+    width: 50%;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.pos {
+    height: 100px; background-color: gold;
+    margin-top: 10px;
+}
